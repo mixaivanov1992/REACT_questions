@@ -1,0 +1,16 @@
+.sections{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.sections > div{
+    background-color: #007bff;
+    margin: 0.5em;
+    border-radius: 0.2em;
+}
+.sections > div > a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5em 1em;
+}

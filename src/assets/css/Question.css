@@ -1,0 +1,55 @@
+.questions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+	flex: 1;
+}
+.questions > div{
+    margin-bottom: 0.5em;
+    width: 100%;
+}
+.questions > .header{
+    display: flex;
+    flex-direction: column;
+}
+.questions > .header > div:first-child{
+    display: flex;
+    margin-bottom: 0.5em;
+}
+.questions > .header > div > a{
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 0.2em;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+.questions > .header > .section{
+    font-size: 2em;
+    text-align: center;
+}
+.questions > .content,
+.questions > .message{
+    flex: 1;
+}
+.questions > .message{
+    text-align: center;
+}
+.questions > .content > .question{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+.questions > .content > .your_answer{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+.questions > .content > .your_answer > textarea{
+    width: 80%;
+}
+.questions > .content > .answer{
+    text-align: center;
+}
+.questions > .content > .answer > button{
+    margin-bottom: 0.5em;
+}
