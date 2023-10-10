@@ -6,4 +6,5 @@ export const sections = [
     'PHP',
     'Web',
     'CSS',
+    'English'
 ];

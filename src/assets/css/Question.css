@@ -47,9 +47,21 @@
 .questions > .content > .your_answer > textarea{
     width: 80%;
 }
+.questions > .menu,
 .questions > .content > .answer{
     text-align: center;
 }
-.questions > .content > .answer > button{
-    margin-bottom: 0.5em;
+.questions > .menu > button{
+    text-align: center;
+    margin: 0 0.25em;
+}
+
+.questions > .content > .answer .tab_1{
+    margin-left: 2em;
+}
+.questions > .content > .answer .tab_2{
+    margin-left: 3em;
+}
+.questions > .content > .answer .tab_3{
+    margin-left: 4em;
 }

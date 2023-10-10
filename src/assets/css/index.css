@@ -21,6 +21,10 @@ button{
 button:active{
     opacity: 0.8;
 }
+button:disabled{
+	background-color: gray;
+    opacity: 1;
+}
 #root{
 	display: flex;
 	flex-direction: column;
